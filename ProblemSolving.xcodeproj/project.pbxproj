@@ -13,10 +13,15 @@
 		55AEE20A23ACF6A8009C7A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55AEE20823ACF6A8009C7A5A /* Main.storyboard */; };
 		55AEE20C23ACF6A9009C7A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55AEE20B23ACF6A9009C7A5A /* Assets.xcassets */; };
 		55AEE20F23ACF6A9009C7A5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55AEE20D23ACF6A9009C7A5A /* LaunchScreen.storyboard */; };
+		55AEE21823ACFB44009C7A5A /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AEE21723ACFB44009C7A5A /* UIExtensions.swift */; };
+		55AEE21B23ACFCA9009C7A5A /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AEE21A23ACFCA9009C7A5A /* Solution.swift */; };
+		55AEE21E23ACFD02009C7A5A /* 74.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AEE21D23ACFD02009C7A5A /* 74.swift */; };
+		55AEE22023AD1708009C7A5A /* 240.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AEE21F23AD1708009C7A5A /* 240.swift */; };
+		55AEE22223AD1B5B009C7A5A /* 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AEE22123AD1B5B009C7A5A /* 2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		55AEE1FF23ACF6A8009C7A5A /* ProblemSolving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProblemSolving.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55AEE1FF23ACF6A8009C7A5A /* Problem Solving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Problem Solving.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55AEE20223ACF6A8009C7A5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55AEE20423ACF6A8009C7A5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		55AEE20623ACF6A8009C7A5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,11 @@
 		55AEE20B23ACF6A9009C7A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55AEE20E23ACF6A9009C7A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55AEE21023ACF6A9009C7A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55AEE21723ACFB44009C7A5A /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		55AEE21A23ACFCA9009C7A5A /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		55AEE21D23ACFD02009C7A5A /* 74.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 74.swift; sourceTree = "<group>"; };
+		55AEE21F23AD1708009C7A5A /* 240.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 240.swift; sourceTree = "<group>"; };
+		55AEE22123AD1B5B009C7A5A /* 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +58,7 @@
 		55AEE20023ACF6A8009C7A5A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55AEE1FF23ACF6A8009C7A5A /* ProblemSolving.app */,
+				55AEE1FF23ACF6A8009C7A5A /* Problem Solving.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +66,9 @@
 		55AEE20123ACF6A8009C7A5A /* ProblemSolving */ = {
 			isa = PBXGroup;
 			children = (
+				55AEE21923ACFC88009C7A5A /* Problems */,
+				55AEE21623ACFB33009C7A5A /* Utils */,
+				55AEE21A23ACFCA9009C7A5A /* Solution.swift */,
 				55AEE20223ACF6A8009C7A5A /* AppDelegate.swift */,
 				55AEE20423ACF6A8009C7A5A /* SceneDelegate.swift */,
 				55AEE20623ACF6A8009C7A5A /* ViewController.swift */,
@@ -65,6 +78,32 @@
 				55AEE21023ACF6A9009C7A5A /* Info.plist */,
 			);
 			path = ProblemSolving;
+			sourceTree = "<group>";
+		};
+		55AEE21623ACFB33009C7A5A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				55AEE21723ACFB44009C7A5A /* UIExtensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		55AEE21923ACFC88009C7A5A /* Problems */ = {
+			isa = PBXGroup;
+			children = (
+				55AEE21C23ACFCF4009C7A5A /* LeedCode */,
+			);
+			path = Problems;
+			sourceTree = "<group>";
+		};
+		55AEE21C23ACFCF4009C7A5A /* LeedCode */ = {
+			isa = PBXGroup;
+			children = (
+				55AEE22123AD1B5B009C7A5A /* 2.swift */,
+				55AEE21D23ACFD02009C7A5A /* 74.swift */,
+				55AEE21F23AD1708009C7A5A /* 240.swift */,
+			);
+			path = LeedCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +123,7 @@
 			);
 			name = ProblemSolving;
 			productName = ProblemSolving;
-			productReference = 55AEE1FF23ACF6A8009C7A5A /* ProblemSolving.app */;
+			productReference = 55AEE1FF23ACF6A8009C7A5A /* Problem Solving.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,9 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55AEE21B23ACFCA9009C7A5A /* Solution.swift in Sources */,
 				55AEE20723ACF6A8009C7A5A /* ViewController.swift in Sources */,
+				55AEE22023AD1708009C7A5A /* 240.swift in Sources */,
+				55AEE21E23ACFD02009C7A5A /* 74.swift in Sources */,
+				55AEE22223AD1B5B009C7A5A /* 2.swift in Sources */,
 				55AEE20323ACF6A8009C7A5A /* AppDelegate.swift in Sources */,
 				55AEE20523ACF6A8009C7A5A /* SceneDelegate.swift in Sources */,
+				55AEE21823ACFB44009C7A5A /* UIExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,16 +328,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 96NM38U4RS;
 				INFOPLIST_FILE = ProblemSolving/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.anjan.ProblemSolving;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anjan.problemSolving;
+				PRODUCT_NAME = "Problem Solving";
+				PROVISIONING_PROFILE_SPECIFIER = problemSolvingWithSwift;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,16 +349,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 96NM38U4RS;
 				INFOPLIST_FILE = ProblemSolving/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.anjan.ProblemSolving;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anjan.problemSolving;
+				PRODUCT_NAME = "Problem Solving";
+				PROVISIONING_PROFILE_SPECIFIER = problemSolvingWithSwift;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

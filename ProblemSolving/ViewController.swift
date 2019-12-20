@@ -9,10 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var solution: Solution?
+    
+    @IBAction func solveProblemAction(_ sender: UIButton) {
+        solution = Leed2()
+        solution?.executeMain()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        print("Program Loaded...")
     }
 
 

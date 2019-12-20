@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Leed2.executeMain():2.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Leed2.Solution.addTwoNumbers(_:_:):2.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "link1?.val">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
