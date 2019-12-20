@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     var solution: Solution?
     
     @IBAction func solveProblemAction(_ sender: UIButton) {
-        solution = Leed2()
+        solution = Leet2()
         solution?.executeMain()
     }
     

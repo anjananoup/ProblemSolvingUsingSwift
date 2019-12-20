@@ -6,7 +6,7 @@
 //  Copyright © 2019 Anjan. All rights reserved.
 //
 
-class Leed240: Solution {
+class Leet240: Solution {
     func executeMain() {
         print(Solution().searchMatrix([
           [1,   4,  7, 11, 15],

@@ -6,15 +6,15 @@
 //  Copyright © 2019 Anjan. All rights reserved.
 //
 
-class Leed2: Solution {
+class Leet2: Solution {
     func executeMain() {
-        let one = Leed2.ListNode(3)
-        one.next = Leed2.ListNode(7)
-//        one.next?.next = Leed2.ListNode(3)
+        let one = Leet2.ListNode(3)
+        one.next = Leet2.ListNode(7)
+//        one.next?.next = Leet2.ListNode(3)
         
-        let two = Leed2.ListNode(9)
-        two.next = Leed2.ListNode(2)
-//        two.next?.next = Leed2.ListNode(4)
+        let two = Leet2.ListNode(9)
+        two.next = Leet2.ListNode(2)
+//        two.next?.next = Leet2.ListNode(4)
         
         let res = Solution().addTwoNumbers(one, two)
         print(res)

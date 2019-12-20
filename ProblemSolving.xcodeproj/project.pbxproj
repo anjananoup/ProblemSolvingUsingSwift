@@ -91,19 +91,19 @@
 		55AEE21923ACFC88009C7A5A /* Problems */ = {
 			isa = PBXGroup;
 			children = (
-				55AEE21C23ACFCF4009C7A5A /* LeedCode */,
+				55AEE21C23ACFCF4009C7A5A /* LeetCode */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
 		};
-		55AEE21C23ACFCF4009C7A5A /* LeedCode */ = {
+		55AEE21C23ACFCF4009C7A5A /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
 				55AEE22123AD1B5B009C7A5A /* 2.swift */,
 				55AEE21D23ACFD02009C7A5A /* 74.swift */,
 				55AEE21F23AD1708009C7A5A /* 240.swift */,
 			);
-			path = LeedCode;
+			path = LeetCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
